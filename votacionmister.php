@@ -25,7 +25,7 @@
             ><i class="las la-check"></i>
             <div class="hobbies-icon">
               <i class="las la-biking"></i>
-              <h3>Biking</h3>
+              <h3>UWU</h3>
             </div>
           </span>
         </label>
