@@ -9,7 +9,7 @@
       rel="stylesheet"
     />
     <!-- Line Awesome CDN Link -->
-    <link rel="stylesheet" href="stylesmister1.css">
+    <link rel="stylesheet" href="stylesmiss.css">
     <link
       rel="stylesheet"
       href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
@@ -17,17 +17,15 @@
      </head>
   <body>
     <div class="main-container">
-      <h2>¡Vota por tu candidato Favorito para Mister Preu!</h2>
+      <h2>What's your favourite hobbie?</h2>
       <div class="radio-buttons">
         <label class="custom-radio">
           <input type="radio" name="radio" checked />
-          <span class="radio-btn">
-            <i class="las la-check"></i>
-            <!-- <img src="Candidatos/MartínSanchez.jpeg" alt=""> -->
+          <span class="radio-btn"
+            ><i class="las la-check"></i>
             <div class="hobbies-icon">
-              <!-- <i class="las la-biking"></i> -->
-              
-              <h3>Martín Antonio Sanches Thomae</h3>
+              <i class="las la-biking"></i>
+              <h3>Biking</h3>
             </div>
           </span>
         </label>
@@ -37,7 +35,7 @@
             ><i class="las la-check"></i>
             <div class="hobbies-icon">
               <i class="las la-futbol"></i>
-              <h3>Lizardo Andrés Cacao Winter</h3>
+              <h3>Football</h3>
             </div>
           </span>
         </label>
@@ -47,7 +45,7 @@
             ><i class="las la-check"></i>
             <div class="hobbies-icon">
               <i class="las la-table-tennis"></i>
-              <h3>Germán Enrique Contreras Ruiz</h3>
+              <h3>Table Tennis</h3>
             </div>
           </span>
         </label>
@@ -57,27 +55,7 @@
             ><i class="las la-check"></i>
             <div class="hobbies-icon">
               <i class="las la-ellipsis-h"></i>
-              <h3>Hector Smailyn Izaguirre Alvarado</h3>
-            </div>
-          </span>
-        </label>
-        <label class="custom-radio">
-          <input type="radio" name="radio" />
-          <span class="radio-btn"
-            ><i class="las la-check"></i>
-            <div class="hobbies-icon">
-              <i class="las la-ellipsis-h"></i>
-              <h3>Jan Alessandro Vielman López</h3>
-            </div>
-          </span>
-        </label>
-        <label class="custom-radio">
-          <input type="radio" name="radio" />
-          <span class="radio-btn"
-            ><i class="las la-check"></i>
-            <div class="hobbies-icon">
-              <i class="las la-ellipsis-h"></i>
-              <h3>Henrry Alexander Alvarado Tzi</h3>
+              <h3>Other</h3>
             </div>
           </span>
         </label>
