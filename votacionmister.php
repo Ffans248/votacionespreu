@@ -21,9 +21,9 @@
       <div class="radio-buttons">
         <label class="custom-radio">
           <input type="radio" name="radio" checked />
-          <span class="radio-btn">
+          <span class="radio-btn martin">
             <i class="las la-check"></i>
-            <!-- <img src="Candidatos/MartínSanchez.jpeg" alt=""> -->
+            <img src="Candidatos/MartínSanchez.jpeg" alt="">
             <div class="hobbies-icon">
               <!-- <i class="las la-biking"></i> -->
               
@@ -33,8 +33,9 @@
         </label>
         <label class="custom-radio">
           <input type="radio" name="radio" />
-          <span class="radio-btn"
-            ><i class="las la-check"></i>
+          <span class="radio-btn Lizardo"         >
+            <!-- #region --><i class="las la-check"></i>  
+            <img src="Candidatos/LizardoCacao.jpeg" alt="">
             <div class="hobbies-icon">
               <i class="las la-futbol"></i>
               <h3>Lizardo Andrés Cacao Winter</h3>
@@ -43,18 +44,20 @@
         </label>
         <label class="custom-radio">
           <input type="radio" name="radio" />
-          <span class="radio-btn"
+          <span class="radio-btn German"
             ><i class="las la-check"></i>
+            <img src="Candidatos/GermanContreras.jpeg" alt="">
             <div class="hobbies-icon">
-              <i class="las la-table-tennis"></i>
+              <!-- <i class="las la-table-tennis"></i> -->
               <h3>Germán Enrique Contreras Ruiz</h3>
             </div>
           </span>
         </label>
         <label class="custom-radio">
           <input type="radio" name="radio" />
-          <span class="radio-btn"
+          <span class="radio-btn Smailyn"
             ><i class="las la-check"></i>
+            <img src="Candidatos/SmailynIzaguirre.jpeg" alt="">
             <div class="hobbies-icon">
               <i class="las la-ellipsis-h"></i>
               <h3>Hector Smailyn Izaguirre Alvarado</h3>
@@ -63,8 +66,9 @@
         </label>
         <label class="custom-radio">
           <input type="radio" name="radio" />
-          <span class="radio-btn"
+          <span class="radio-btn Jan"
             ><i class="las la-check"></i>
+            <img src="Candidatos/JanVielman.jpeg" alt="">
             <div class="hobbies-icon">
               <i class="las la-ellipsis-h"></i>
               <h3>Jan Alessandro Vielman López</h3>
@@ -73,8 +77,9 @@
         </label>
         <label class="custom-radio">
           <input type="radio" name="radio" />
-          <span class="radio-btn"
+          <span class="radio-btn Henrry"
             ><i class="las la-check"></i>
+            <img src="Candidatos/HenrryAlvarado.jpeg " alt="">
             <div class="hobbies-icon">
               <i class="las la-ellipsis-h"></i>
               <h3>Henrry Alexander Alvarado Tzi</h3>

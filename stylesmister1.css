@@ -39,10 +39,9 @@
     display: none;
   }
   
-  .radio-btn {
+  .radio-btn.martin {
     margin: 1%;
-    width: 45%;
-    height: 80vh;
+    
     border: 3px solid transparent;
     display: inline-block;
     border-radius: 10px;
@@ -50,16 +49,115 @@
     text-align: center;
     box-shadow: 0 0 20px #c3c3c367;
     cursor: pointer;
-    background-image: url(Candidatos/MartínSanchez.jpeg);
+    /* background-image: url(Candidatos/MartínSanchez.jpeg); */
+    background-position: center 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  img{
+    max-width: 100%;
+    height: 100%;
+  }
+  .radio-btn.Lizardo {
+    margin: 1%;
+    
+    border: 3px solid transparent;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 0 20px #c3c3c367;
+    cursor: pointer;
+    /* background-image: url(Candidatos/LizardoCacao.jpeg); */
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .radio-btn.German {
+    margin: 1%;
+  
+    border: 3px solid transparent;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 0 20px #c3c3c367;
+    cursor: pointer;
+    /* background-image: url(Candidatos/GermánContreras.jpeg); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .radio-btn.Smailyn {
+    margin: 1%;
+    
+    border: 3px solid transparent;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 0 20px #c3c3c367;
+    cursor: pointer;
+    /* background-image: url(Candidatos/SmailynIzaguirre.jpeg); */
+    /* background-position: center ; */
+    /* background-position-x: 30%; */
 
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+  .radio-btn.Jan {
+    margin: 1%;
+    
+    border: 3px solid transparent;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 0 20px #c3c3c367;
+    cursor: pointer;
+    /* background-image: url(Candidatos/JanVielman.jpeg); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+  .radio-btn.Henrry {
+    margin: 1%;
+   
+    border: 3px solid transparent;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 0 20px #c3c3c367;
+    cursor: pointer;
+    /* background-image: url(Candidatos/HenrryAlvarado.jpeg); */
+    background-position: center 30%;
+    /* background-position: 0px px 0px 0px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+
+  .radio-btn {
+    margin: 1%;
+    
+    border: 3px solid transparent;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 0 20px #c3c3c367;
+    cursor: pointer;
+    /* background-image: url(Candidatos/MartínSanchez.jpeg); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
  
   .radio-btn > i {
     color: #ffffff;
     background-color: #38c8e4;
+    background-size: 50%;
     font-size: 20px;
     position: absolute;
     top: -15px;
@@ -90,14 +188,15 @@
   .radio-btn .hobbies-icon h3 {
     color: #38c8e4;
     font-family: "Raleway", sans-serif;
-    font-size: 16px;
+    font-size: 2REM;
     font-weight: 400;
     text-transform: uppercase;
+    word-wrap: break-word;
   }
   
   /* Estilos para el botón de radio seleccionado */
   .custom-radio input:checked + .radio-btn {
-    border: 8gitpx solid #38c8e4;
+    border: 8px solid #38c8e4;
   }
   
   .custom-radio input:checked + .radio-btn > i {
@@ -110,10 +209,11 @@
     .main-container h2 {
       font-size: 24px;
     }
+   
   
     .radio-btn {
-      width: 45vw;
-      height: 400px;
+      width: 90vw;
+      height: 95vh;
     }
   
     .radio-btn .hobbies-icon {
@@ -136,12 +236,12 @@
     }
   
     .radio-btn {
-      width: 45vw;
+      width: 85vw;
       height: 250px;
     }
   
     .radio-btn .hobbies-icon {
-      width: 50px;
+      width: 85VW;
       height: 50px;
     }
   
