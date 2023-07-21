@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $_SESSION['usuario'] = $UsuarioAdmin;
         $_SESSION['logged_in'] = true;
 
-        header('Location: resultados.php');
+        header('Location: ../resultados.php');
         
     } else {
         
