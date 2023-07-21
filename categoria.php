@@ -24,7 +24,6 @@
                         <div class="hobbies-icon">
                             <i class="bi bi-gender-male"></i><br><br>
                             <h3>Masculino</h3>
-
                         </div>
                     </span>
                 </label>
@@ -35,7 +34,16 @@
                         <div class="hobbies-icon">
                             <i class="bi bi-gender-female"></i><br><br>
                             <h3>Femenino</h3>
-
+                        </div>
+                    </span>
+                </label>
+            </a>
+            <a href="cerrarSesion.php"><label class="custom-radio">
+                    <input type="submit" name="radio" />
+                    <span class="radio-btn"><i class="las la-check"></i>
+                        <div class="hobbies-icon">
+                            <i class="bi bi-gender-female"></i><br><br>
+                            <h3>Cerrar Sesión</h3>
                         </div>
                     </span>
                 </label>

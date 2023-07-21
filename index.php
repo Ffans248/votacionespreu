@@ -1,3 +1,9 @@
+<?php 
+    session_start();
+    if(isset($_SESSION['id'])){
+        header('location: categoria.php');
+    } else {
+  ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,10 +25,18 @@
     <!-- Start DEMO HTML (Use the following code into your project)-->
     <div class="main">
       <div class="container a-container" id="a-container">
-        <form class="form" id="a-form" method="" action="">
+        <form class="form" method="POST" action="login.php">
           <h2 class="form_title title">Acceder a las Votaciones</h2>
-          <input class="form__input" type="text" placeholder="Codigo SICA">
-          <input class="form__input" type="date" placeholder="Fecha de Nacimiento">
+          <input class="form__input" name="codigo_sica" type="text" placeholder="Codigo SICA">
+          <input class="form__input" name="fechaNac" type="date" placeholder="Fecha de Nacimiento">
+          <?php if(isset($_GET['error'])) { ?>
+                    <p class="error"><?php echo $_GET['error']?></p>
+                    <?php } ?>
+                    <br>
+                    <?php if(isset($_GET['success'])) { ?>
+                    <p class="success"><?php echo $_GET['success']?></p>
+                    <?php } ?>
+                    
           <button class="form__button button submit">Ingresar</button>
         </form>
       </div> 
@@ -37,3 +51,4 @@
 </body>
 
 </html>
+<?php }?>
