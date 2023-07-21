@@ -8,20 +8,25 @@ if (!$conexion) {
     die("La conexión fallo: " . mysqli_connect_error());
 } else {
         if (empty($_POST["radio"])) {
-            header('Location: votacionmiss.php?error=<script>alert("¡No has seleccionado una candidata!");</script>');
+            header('Location: votacionmister.php?error=<script>alert("¡No has seleccionado una candidata!");</script>');
         }else {
-    $idmiss = $_POST['radio'];
+    $idmister = $_POST['radio'];
     $sql = mysqli_query($conexion,"SELECT * FROM votos WHERE fk_alumno = '$id'");
     $r = mysqli_num_rows($sql);
     if ($r > 0) {
         
         
        
-        $sql = "UPDATE votos SET miss=$idmiss, estado_miss=1";
+        $sql = "UPDATE votos SET mister=$idmister, estado_mister=1";
+        if (mysqli_query($conexion, $sql)) {
+            header("Location: index.php");
+        } else {
+            echo "Error: " . mysqli_error($conexion);
+        }
         
     } else {
         
-        $sql = "INSERT INTO votos (fk_alumno, miss, estado_miss) VALUES ($id, $idmiss, 1)";
+        $sql = "INSERT INTO votos (fk_alumno, mister, estado_mister) VALUES ($id, $idmister, 1)";
 
     if (mysqli_query($conexion, $sql)) {
         header("Location: index.php");
@@ -35,4 +40,3 @@ if (!$conexion) {
 
         
     }?>
-

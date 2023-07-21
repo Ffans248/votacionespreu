@@ -24,9 +24,9 @@
 
         <h2>¡Vota por tu candidato Favorito para Mister Preu!</h2>
         <div class="radio-buttons">
-            <form action="">
+            <form action="votomister.php" method="POST">
                 <label class="custom-radio">
-                    <input type="radio" name="radio" checked value="1" />
+                    <input type="radio" name="radio"  value="1" />
                     <span class="radio-btn martin">
                         <i class="las la-check"></i>
                         <img src="Candidatos/MartínSanchez.jpeg" alt="">

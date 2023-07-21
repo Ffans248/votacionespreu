@@ -24,7 +24,7 @@
         <div class="radio-buttons">
             <form action="votomiss.php" method="POST">
                 <label class="custom-radio">
-                    <input type="radio" name="radio" checked value="1"/>
+                    <input type="radio" name="radio"  value="1"/>
                     <span class="radio-btn martin">
                         <i class="las la-check"></i>
                         <img src="Candidatos/SuceilyCaal.jpeg" alt="">
@@ -87,19 +87,27 @@
                     </span>
                 </label>
                 <div class="wrap">
-                    <button class="button">¡Enviar Voto!</button>
+                    <button class="button">¡Enviar Voto!</button> 
+                    
+                    
                 </div>
+                <Br>
+                <?php if (isset($_GET['error'])) { ?>
+              <p class="error">
+                <?php echo $_GET['error'] ?>
+              </p>
+            <?php } ?>
+            <br>
+            <?php if (isset($_GET['success'])) { ?>
+              <p class="success">
+                <?php echo $_GET['success'] ?>
+              </p>
+            <?php } ?>
             </form>
         </div>
     </div>
-<<<<<<< HEAD
-</body>
-
-</html>
-=======
   </body>
 </html>
 <?php }else{
     header('location: index.php');
 } ?>
->>>>>>> KrSAdal
