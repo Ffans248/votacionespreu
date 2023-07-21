@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
         header('Location: resultados.php')
         exit();
     }  else {
-        header('Location: LoginAdmin/index.php')
+        header('Location: LoginAdmin/index.html')
     }
 }
 ?>
