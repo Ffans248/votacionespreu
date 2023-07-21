@@ -23,7 +23,7 @@
     <div class="main-container">
         <h2>Elige Categoría</h2>
         <div class="radio-buttons">
-            <a href="votacionmister.php"><label class="custom-radio">
+            <a href="validarmister.php"><label class="custom-radio">
                     <input type="submit" name="radio" checked />
                     <span class="radio-btn"><i class="las la-check"></i>
                         <div class="hobbies-icon">
