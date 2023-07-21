@@ -10,21 +10,18 @@
 }
 
 body {
-  min-height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   align-content: flex-start;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 15px;
   background: #eee;
-  margin: 0; /* Remove default body margin */
-  padding: 0; /* Remove default body padding */
 }
 
 .cd__intro {
@@ -46,7 +43,6 @@ body {
 
 .cd__intro h1 {
   font-size: 18pt;
-  padding-bottom: 15px;
 }
 
 .cd__intro p {
@@ -90,10 +86,10 @@ body {
 }
 
 .cd__credit {
-  padding: 12px;
+  padding: 0.5%;
   font-size: 9pt;
-  margin-top: 40px;
   width: 100%;
+  margin-top: 23px;
 }
 
 .cd__credit span:before {
@@ -116,16 +112,14 @@ body {
   content: "\f08e";
   font-size: 9pt;
   position: absolute;
-  margin: 3px;
 }
 
 .cd__main {
   background: #fff;
-  padding: 20px;
+  padding: 2%;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 60px; /* Adjust the margin to avoid content overlapping with the footer */
 }
 
 .cd__main {
@@ -133,11 +127,11 @@ body {
   width: 100%;
 }
 
-@media only screen and (min-width: 1360px) {
+@media only screen and (min-width: 1200px) {
   .cd__main {
     max-width: 1280px;
     margin-left: 0;
     margin-right: 0;
-    padding: 24px;
+    padding: 2%;
   }
 }

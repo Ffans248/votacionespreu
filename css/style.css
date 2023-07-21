@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  min-height: 100vh; 
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,10 +21,10 @@ body {
 
 .main {
   position: relative;
-  width: 90%; 
+  width: 100%; 
   max-width: 1200px;
-  min-height: 400px;
-  height: auto; 
+  min-height: 600px;
+  height: 100%;
   padding: 25px;
   background-color: #ecf0f3;
   box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
@@ -59,7 +59,7 @@ body {
 
 
 .title {
-  margin-top: 40px;
+  margin-top: 50%;
   font-size: 24px;
   line-height: 2.5;
   color: #181818;
