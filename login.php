@@ -28,7 +28,7 @@
                         $_SESSION['id'] = $id;
                         $_SESSION['codigo_sica'] = $usuario1;
     
-                        header('Location: cateoria.php');
+                        header('Location: categoria.php');
                     }else{
                         header('Location: index.php?error=Codigo SICA o fecha de nacimiento incorrecta ');
                     }

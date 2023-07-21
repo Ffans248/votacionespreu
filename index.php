@@ -27,8 +27,8 @@
       <div class="container a-container" id="a-container">
         <form class="form" method="POST" action="login.php">
           <h2 class="form_title title">Acceder a las Votaciones</h2>
-          <input class="form__input" name="codigo_sica" type="text" placeholder="Codigo SICA">
-          <input class="form__input" name="fechaNac" type="date" placeholder="Fecha de Nacimiento">
+          <input class="form__input" name="codigo_sica" type="text" placeholder="Codigo SICA" max="13">
+          <input class="form__input" name="fechaNac" type="date" placeholder="Fecha de Nacimiento" max="10">
           <?php if(isset($_GET['error'])) { ?>
                     <p class="error"><?php echo $_GET['error']?></p>
                     <?php } ?>

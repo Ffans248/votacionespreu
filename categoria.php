@@ -1,3 +1,4 @@
+
 <html lang="en">
 
 <head>
@@ -42,7 +43,7 @@
                     <input type="submit" name="radio" />
                     <span class="radio-btn"><i class="las la-check"></i>
                         <div class="hobbies-icon">
-                            <i class="bi bi-gender-female"></i><br><br>
+                            <i class="bi bi-door-open"></i><br><br>
                             <h3>Cerrar Sesión</h3>
                         </div>
                     </span>
