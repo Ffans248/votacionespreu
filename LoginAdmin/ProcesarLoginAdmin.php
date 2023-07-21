@@ -34,8 +34,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         header('Location: resultados.php');
         
     } else {
-        header('Location: index.html');
-       
+        
+
+        ?>
+        <?php
+         include("index.html");
+        ?>
+        <h1 class>Error en la autentificación de los datos o no existe la usuario</h1>
+        <?php
     }
 
     $conn->close();
