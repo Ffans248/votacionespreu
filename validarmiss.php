@@ -8,7 +8,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['codigo_sica'])) {
     $sql = "SELECT * from votos where fk_alumno = '$ID'";
     $query = mysqli_query($conexion, $sql);
 
-    if ($query->num_rows == 1) {
+    if ($query->num_rows == 0) {
         $usuarioQ = $query->fetch_assoc();
 
         $id = $usuarioQ['fk_alumno'];
@@ -21,7 +21,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['codigo_sica'])) {
             header('Location: votacionmiss.php?error=Ya votaste a alguna candidata para MISS');
         }
     } else {
-        header('Location: index.php?error=Codigo SICA o fecha de nacimiento incorrecta');
+        header('Location: categoria.php?error=Ya votaste a alguna candidata para MISS');
     }
 } else {
     header('location: index.php');
