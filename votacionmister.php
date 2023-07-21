@@ -1,3 +1,8 @@
+<?php 
+    session_start();
+    if(isset($_SESSION['id']) && isset($_SESSION['codigo_sica'])){
+    
+?>
 <html lang="en">
 
 <head>
@@ -15,6 +20,7 @@
 
 <body>
     <div class="main-container">
+
 
         <h2>¡Vota por tu candidato Favorito para Mister Preu!</h2>
         <div class="radio-buttons">
@@ -92,3 +98,8 @@
 </body>
 
 </html>
+
+<?php }else{
+    header('location: index.php');
+} ?>
+

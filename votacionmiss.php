@@ -1,3 +1,8 @@
+<?php 
+    session_start();
+    if(isset($_SESSION['id']) && isset($_SESSION['codigo_sica'])){
+    
+?>
 <html lang="en">
 
 <head>
@@ -87,6 +92,14 @@
             </form>
         </div>
     </div>
+<<<<<<< HEAD
 </body>
 
 </html>
+=======
+  </body>
+</html>
+<?php }else{
+    header('location: index.php');
+} ?>
+>>>>>>> KrSAdal
