@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;800&display=swap"
         rel="stylesheet" />
     <!-- Line Awesome CDN Link -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="categoria.css">
     <link rel="stylesheet"
         href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -33,7 +33,7 @@
                     </span>
                 </label>
             </a>
-            <a href="votacionmiss.php"><label class="custom-radio">
+            <a href="validarmiss.php"><label class="custom-radio">
                     <input type="submit" name="radio" />
                     <span class="radio-btn"><i class="las la-check"></i>
                         <div class="hobbies-icon">
@@ -53,6 +53,17 @@
                     </span>
                 </label>
             </a>
+            <?php if (isset($_GET['error'])) { ?>
+              <p class="error">
+                <?php echo $_GET['error'] ?>
+              </p>
+            <?php } ?>
+            <br>
+            <?php if (isset($_GET['success'])) { ?>
+              <p class="success">
+                <?php echo $_GET['success'] ?>
+              </p>
+            <?php } ?>
         </div>
     </div>
 </body>
