@@ -1,5 +1,8 @@
 <!--Conexión a la Base de Datos -->
 <?php
+
+session_start();
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST'){
     $UsuarioAdmin= $_POST['usuario'];
     $PassAdmin= $_POST['pass'];
@@ -10,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
         exit();
     }
 
-    $SERVER="localhost";
+    $SERVER="Localhost";
     $USER="";
     $PASS="";
     $DB="votaciones";
@@ -31,10 +34,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
         $_SESSION['usuario'] = $UsuarioAdmin;
         $_SESSION['logged_in'] = true;
 
-        header('Location: resultados.php')
+        header('Location: LoginAdmin/resultados.php');
         exit();
     }  else {
-        header('Location: LoginAdmin/index.html')
+        header('Location: LoginAdmin/index.html');
     }
 }
 ?>
