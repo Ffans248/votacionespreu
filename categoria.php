@@ -33,7 +33,7 @@
                     </span>
                 </label>
             </a>
-            <a href="votacionmiss.php"><label class="custom-radio">
+            <a href="validarmiss.php"><label class="custom-radio">
                     <input type="submit" name="radio" />
                     <span class="radio-btn"><i class="las la-check"></i>
                         <div class="hobbies-icon">
@@ -53,6 +53,17 @@
                     </span>
                 </label>
             </a>
+            <?php if (isset($_GET['error'])) { ?>
+              <p class="error">
+                <?php echo $_GET['error'] ?>
+              </p>
+            <?php } ?>
+            <br>
+            <?php if (isset($_GET['success'])) { ?>
+              <p class="success">
+                <?php echo $_GET['success'] ?>
+              </p>
+            <?php } ?>
         </div>
     </div>
 </body>
