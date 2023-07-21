@@ -60,7 +60,7 @@
     height: 100%;
   }
   .radio-btn.Lizardo {
-    margin: 1%;
+    /* margin: 1%; */
     
     border: 3px solid transparent;
     display: inline-block;
@@ -122,7 +122,7 @@
     background-size: cover;
   } 
   .radio-btn.Henrry {
-    margin: 1%;
+    /* margin: 1%; */
    
     border: 3px solid transparent;
     display: inline-block;
@@ -139,8 +139,9 @@
   } 
 
   .radio-btn {
-    margin: 1%;
-    
+    /* margin: 1%; */
+    width: 25%;
+    height: 25%;
     border: 3px solid transparent;
     display: inline-block;
     border-radius: 10px;
@@ -236,8 +237,8 @@
     }
   
     .radio-btn {
-      width: 85vw;
-      height: 250px;
+      width: 95vw;
+      height: 70vh;
     }
   
     .radio-btn .hobbies-icon {
