@@ -15,6 +15,7 @@
 
 <body>
     <div class="main-container">
+
         <h2>¡Vota por tu candidato Favorito para Mister Preu!</h2>
         <div class="radio-buttons">
             <form action="">
@@ -86,6 +87,7 @@
                 </div>
             </form>
         </div>
+
     </div>
 </body>
 
