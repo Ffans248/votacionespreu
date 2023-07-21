@@ -19,7 +19,7 @@
 
   .main-container h2 {
     margin: 0 0 80px 0;
-    color: #8373e6;
+    color: #38c8e4;
     font-size: 30px;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
@@ -37,8 +37,8 @@
 
   .radio-btn {
     margin: 10px;
-    width: 180px;
-    height: 200px;
+    width: 250px;
+    height: 450px;
     border: 3px solid transparent;
     display: inline-block;
     border-radius: 10px;
@@ -50,7 +50,7 @@
 
   .radio-btn > i {
     color: #ffffff;
-    background-color: #8373e6;
+    background-color: #38c8e4;
     font-size: 20px;
     position: absolute;
     top: -15px;
@@ -73,13 +73,13 @@
   }
 
   .radio-btn .hobbies-icon i {
-    color: #8373e6;
+    color: #38c8e4;
     line-height: 80px;
     font-size: 60px;
   }
 
   .radio-btn .hobbies-icon h3 {
-    color: #8373e6;
+    color: #38c8e4;
     font-family: "Raleway", sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -87,7 +87,7 @@
   }
 
   .custom-radio input:checked + .radio-btn {
-    border: 3px solid #8373e6;
+    border: 3px solid #38c8e4;
   }
 
   .custom-radio input:checked + .radio-btn > i {
