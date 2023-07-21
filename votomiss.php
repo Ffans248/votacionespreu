@@ -21,7 +21,11 @@ if (isset($_SESSION['id']) && isset($_SESSION['codigo_sica'])) {
 
 
                 $sql = "UPDATE votos SET miss=$idmiss, estado_miss=1";
-
+                if (mysqli_query($conexion, $sql)) {
+                    header("Location: index.php");
+                } else {
+                    echo "Error: " . mysqli_error($conexion);
+                }
             } else {
 
                 $sql = "INSERT INTO votos (fk_alumno, miss, estado_miss) VALUES ($id, $idmiss, 1)";
