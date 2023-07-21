@@ -11,12 +11,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit();
     }
 
-    $Server = "localhost";
-    $user = "root"; 
-    $pass = ""; 
-    $db = "votaciones";
-    $conn = mysqli_connect($Server, $user, $pass, $db);
-
+   include_once("conexion.php");
+    
     if (!$conn) {
         die("La conexión falló: " . mysqli_connect_error());
     }
@@ -31,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $_SESSION['usuario'] = $UsuarioAdmin;
         $_SESSION['logged_in'] = true;
 
-        header('Location: ../resultados.php');
+        header('Location: ../Gráfica.html');
         
     } else {
         

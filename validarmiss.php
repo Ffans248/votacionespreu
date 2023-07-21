@@ -8,7 +8,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['codigo_sica'])) {
     $sql = "SELECT * from votos where fk_alumno = '$ID'";
     $query = mysqli_query($conexion, $sql);
 
-    if ($query->num_rows == 0) {
+    if ($query->num_rows >= 0) {
         $usuarioQ = $query->fetch_assoc();
 
         $id = $usuarioQ['fk_alumno'];
